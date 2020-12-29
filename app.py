@@ -1,14 +1,14 @@
 from flask import Flask
 from flask import jsonify
 
-apiLib = {articles: [{"url": "https://github.com/",
-                      "imageURL": 'hi',
-                      "logo": 'hi',
-                      "headline": 'Headlines22'},
-                     {"url": "https://google.com/",
-                      "imageURL": "hello",
-                      "logo": "hoo",
-                      "headline": "What's up?"}]}
+apiLib = {"articles": [{"url": "https://github.com/",
+                        "imageURL": 'hi',
+                        "logo": 'hi',
+                        "headline": 'Headlines22'},
+                       {"url": "https://google.com/",
+                        "imageURL": "hello",
+                        "logo": "hoo",
+                        "headline": "What's up?"}]}
 
 app = Flask(__name__)
 
