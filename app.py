@@ -1,18 +1,24 @@
 from flask import Flask
-import json
+from flask import jsonify
 
-apiLib = {"url": "https://github.com/", "imageURL": 'hi',
-          "logo": 'hi', "headline": 'Headline'}
+apiLib = [{"url": "https://github.com/",
+          "imageURL": 'hi',
+          "logo": 'hi',
+          "headline": 'Headlines22'},
+          {"url": "https://google.com/",
+          "imageURL": "hello",
+          "logo": "hoo",
+          "headline": "What's up?"}
 
-app = Flask(__name__)
+app= Flask(__name__)
 
 
-@app.route('/')
+@ app.route('/')
 def home():
     return "Fake News API Service"
 
 
-@app.route('/sports', methods=['GET'])
+@ app.route('/sports', methods=['GET'])
 def sport():
     return apiLib
 
