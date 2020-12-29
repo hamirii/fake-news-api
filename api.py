@@ -15,3 +15,7 @@ def home():
 @app.route('/sports', methods=['GET'])
 def sport():
     return apiLib
+
+
+if __name__ == '__main__':
+    app.run(ssl_context='adhoc')
