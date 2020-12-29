@@ -2,15 +2,15 @@ from flask import Flask
 from flask import jsonify
 
 apiLib = [{"url": "https://github.com/",
-          "imageURL": 'hi',
-          "logo": 'hi',
-          "headline": 'Headlines22'},
+           "imageURL": 'hi',
+           "logo": 'hi',
+           "headline": 'Headlines22'},
           {"url": "https://google.com/",
-          "imageURL": "hello",
-          "logo": "hoo",
-          "headline": "What's up?"}
+           "imageURL": "hello",
+           "logo": "hoo",
+           "headline": "What's up?"}]
 
-app= Flask(__name__)
+app = Flask(__name__)
 
 
 @ app.route('/')
