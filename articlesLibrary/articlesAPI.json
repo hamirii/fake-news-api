@@ -1,0 +1,63 @@
+{"articles": [
+
+    {
+        "headline": "Arsenal to win Premier League in shock Arsene Wenger comeback",
+        "imageURI": "https://cdn.newsapi.com.au/image/v1/5ce735885933ff71f6943eb9b4b68c1c",
+        "imageLogo": "https://i.ibb.co/5rBMVXF/BBC-logo.png",
+        "url": "https://www.bbc.com/sport/football/55382725",
+        "category": "sports"
+    },
+
+    {
+        "headline": "Whole Foods wins Nobel Prize for solving Climate Change with $60 Dijon Mustard products",
+        "imageURI": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/content/15/e7/47c9886840b299bd24b6e48fca6e/7.Certified-Organic-Grocery-Store_2280x1282._TTW_._CR1,0,2278,1282_._SR1500,844_._QL100_.jpg",
+        "imageLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/900px-CNN.svg.png",
+        "category": "latest"
+    },
+
+    {
+        "headline": "Fish Fingers, as it turns out, are not made from real fish",
+        "imageURI": "https://www.irishtimes.com/polopoly_fs/1.3696142.1542101165!/image/image.jpg",
+        "imageLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/1200px-CTV_logo_2018.svg.png",
+        "category": "latest"
+    },
+
+    {
+        "headline": "Lionel Messi joins Cristiano Ronaldo at Juventus, can only play each game with 5 men",
+        "imageURI": "https://site-cdn.givemesport.com/images/20/08/29/3eaaeda130429fe4d4e74a34fbbe2291/320.jpg",
+        "imageLogo": "https://i.ibb.co/5rBMVXF/BBC-logo.png",
+        "category": "sports"
+    },
+
+    {
+        "headline": "'I'm not the best manager in the world', admits Jose Mourinho",
+        "imageURI": "https://static.standard.co.uk/2020/12/27/22/1293357447-1.jpg?width=968&auto=webp&quality=75",
+        "imageLogo": "https://metro.co.uk/wp-content/uploads/2019/08/metro-logo-9579.png",
+        "category": "sports"
+    },
+
+    {
+        "headline": "Brexit cancelled due to Boris Johnson signing wrong name on bill",
+        "imageURI": "https://www.abc.net.au/cm/rimage/13014282-16x9-xlarge.jpg?v=4",
+        "imageLogo": "https://i.ibb.co/5rBMVXF/BBC-logo.png",
+        "category": "politics"
+    },
+
+    {
+        "headline": "Donald Trump gets second term in office, splits power with Biden",
+        "imageURI": "https://media3.s-nbcnews.com/j/newscms/2020_45/3426834/201107-election-live-blog-main-cover-cs_c1e29142255a740c891255566384f4a8.fit-760w.jpg",
+        "imageLogo": "https://i.ibb.co/5rBMVXF/BBC-logo.png",
+        "category": "politics"
+    },
+
+    {
+        "headline": "Some film article here",
+        "category": "film"
+    },
+
+    {
+        "headline": "Some tech articles here",
+        "category": "tech"
+    }
+
+]}

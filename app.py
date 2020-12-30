@@ -1,28 +1,10 @@
 from flask import Flask
+import json
 
-apiLib = {"articles": [
-
-    {
-        "headline": "Arsenal to win Premier League in shock Arsene Wenger comeback",
-        'imageURI': 'https://cdn.newsapi.com.au/image/v1/5ce735885933ff71f6943eb9b4b68c1c',
-        'imageLogo': 'https://i.ibb.co/5rBMVXF/BBC-logo.png',
-        'url': "https://www.bbc.com/sport/football/55382725"},
-
-    {
-        "headline": "Whole Foods wins Nobel Prize for solving Climate Change with $60 Dijon Mustard products",
-        "imageURI": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/content/15/e7/47c9886840b299bd24b6e48fca6e/7.Certified-Organic-Grocery-Store_2280x1282._TTW_._CR1,0,2278,1282_._SR1500,844_._QL100_.jpg",
-        "imageLogo": 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/900px-CNN.svg.png'
-    },
-
-    {
-        "headline": "Fish Fingers, as it turns out, are not made from real fish",
-        "imageURI": 'https://www.irishtimes.com/polopoly_fs/1.3696142.1542101165!/image/image.jpg',
-        "imageLogo": 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/1200px-CTV_logo_2018.svg.png'
-    }
-
-]}
 
 app = Flask(__name__)
+
+# There is a much better way of doing this - compiling everything into one Json file with the appropriate tag (i.e. "sports")
 
 
 @ app.route('/')
@@ -32,8 +14,46 @@ def home():
 
 @ app.route('/latest', methods=['GET'])
 def latest():
+    with open('articlesLibrary/latestArticles.json') as f:
+        apiLatest = json.load(f)
+    return apiLatest
+
+
+@ app.route('/apiLib')
+def apiLib():
+    with open('articlesLibrary/articlesAPI.json') as f:
+        apiLib = json.load(f)
     return apiLib
 
+
+'''
+@ app.route('/sports', methods=['GET'])
+def sports():
+    with open('articlesLibrary/sportsArticles.json') as f:
+        apiLatest = json.load(f)
+    return apiLatest
+
+
+@ app.route('/politics', methods=['GET'])
+def politics():
+    with open('articlesLibrary/politicsArticles.json') as f:
+        apiPolitics = json.load(f)
+    return apiPolitics
+
+
+@ app.route('/film', methods=['GET'])
+def film():
+    with open('articlesLibrary/filmArticles.json') as f:
+        apiFilm = json.load(f)
+    return apiFilm
+
+
+@ app.route('/tech', methods=['GET'])
+def tech():
+    with open('articlesLibrary/techArticles.json') as f:
+        apiTech = json.load(f)
+    return apiTech
+'''
 
 if __name__ == '__main__':
     app.run(ssl_context='adhoc')
