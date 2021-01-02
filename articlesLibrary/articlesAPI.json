@@ -62,7 +62,7 @@
 
     {
         "headline": "Donald Trump: The first so-called second hand information ‘Whistleblower’ got my phone conversation almost completely wrong",
-        "imageURI": "https://i.ibb.co/Dp5C6ky/image.png",
+        "imageURI": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg",
         "imageLogo": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png",
         "url": "https://twitter.com/realDonaldTrump/status/1180653341539483650",
         "category": ["politics"]
@@ -73,7 +73,7 @@
         "imageURI": "https://yournewswire.com/wp-content/uploads/2020/11/Lady-Gaga-Prince-Charles-aint-human-678x381.jpg",
         "imageLogo":"https://yournewswire.com/wp-content/uploads/2020/11/Logo.png",
         "url": "https://yournewswire.com/lady-gaga-prince-charles-not-human/",
-        "category": ["politics, film, latest"]
+        "category": ["politics", "film", "latest"]
     }
 
 ]}
