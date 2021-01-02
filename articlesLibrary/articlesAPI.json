@@ -51,16 +51,6 @@
     },
 
     {
-        "headline": "Some film article here",
-        "category": ["film"]
-    },
-
-    {
-        "headline": "Some tech articles here",
-        "category": ["tech"]
-    },
-
-    {
         "headline": "Donald Trump: The first so-called second hand information ‘Whistleblower’ got my phone conversation almost completely wrong",
         "imageURI": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg",
         "imageLogo": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png",
@@ -74,6 +64,14 @@
         "imageLogo":"https://yournewswire.com/wp-content/uploads/2020/11/Logo.png",
         "url": "https://yournewswire.com/lady-gaga-prince-charles-not-human/",
         "category": ["politics", "film", "latest"]
+    },
+
+    {
+        "headline": "Says Bill Gates said, “We need to develop a digital certificate that shows who has received all the vaccinations. Only those with all the required vaccinations may travel, visit churches, participate in sports and music events, get a job, etc.”",
+        "imageURI": "https://c.files.bbci.co.uk/13605/production/_111256397_060306797-1.jpg",
+        "imageLogo": "https://p.kindpng.com/picc/s/736-7363083_download-facebook-logo-png-icon-high-quality-transparent.png",
+        "url": "https://archive.fo/mvA2D",
+        "category": ["tech"]
     }
 
 ]}
